@@ -1,0 +1,28 @@
+{
+    "name": "ixocreate/admin-contract",
+    "description": "Admin contracts for IXOCREATE",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "IXOCREATE"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1",
+        "ixocreate/servicemanager-contract": "^1.0.0-alpha1"
+    },
+    "require-dev": {
+        "ixocreate/coding-standard": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ixocreate\\Contract\\Admin\\": "src/"
+        }
+    },
+    "scripts": {
+        "fix-cs": "vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix --config vendor/ixocreate/coding-standard/.php_cs"
+    }
+}
