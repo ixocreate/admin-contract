@@ -7,9 +7,9 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Contract\Admin;
+namespace Ixocreate\Contract\Admin\Widget;
 
-interface DashboardWidgetInterface extends \JsonSerializable
+interface WidgetInterface extends \JsonSerializable
 {
     /**
      * @var int
