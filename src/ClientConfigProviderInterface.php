@@ -14,8 +14,8 @@ use Ixocreate\Contract\ServiceManager\NamedServiceInterface;
 interface ClientConfigProviderInterface extends NamedServiceInterface
 {
     /**
-     * @param RoleInterface|null $role
+     * @param UserInterface|null $user
      * @return array
      */
-    public function clientConfig(?RoleInterface $role = null): array;
+    public function clientConfig(?UserInterface $user = null): array;
 }
