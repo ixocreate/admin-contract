@@ -11,5 +11,8 @@ namespace Ixocreate\Contract\Admin;
 
 interface UserInterface
 {
-
+    /**
+     * @return RoleInterface
+     */
+    public function getRole(): RoleInterface;
 }
