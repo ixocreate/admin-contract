@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Contract\Admin\Resource;
+namespace Ixocreate\Contract\Admin\Resource\Action;
 
 use Ixocreate\Contract\Admin\Resource\Action;
 use Ixocreate\Contract\Admin\UserInterface;
