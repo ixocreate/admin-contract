@@ -14,5 +14,5 @@ use Ixocreate\Contract\Admin\Widget\WidgetCollectorInterface;
 
 interface AboveCreateWidgetInterface
 {
-    public function receiveAboveCreateWidget(UserInterface $user, WidgetCollectorInterface $widgetCollector): void;
+    public function receiveAboveCreateWidgets(UserInterface $user, WidgetCollectorInterface $widgetCollector): void;
 }
