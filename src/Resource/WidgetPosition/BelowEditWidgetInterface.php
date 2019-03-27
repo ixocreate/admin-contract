@@ -9,8 +9,6 @@ declare(strict_types=1);
 
 namespace Ixocreate\Contract\Admin\Resource\WidgetPosition;
 
-use Ixocreate\Contract\Admin\DashboardWidgetCollectorInterface;
-use Ixocreate\Admin\Entity\User;
 use Ixocreate\Contract\Admin\UserInterface;
 use Ixocreate\Contract\Admin\Widget\WidgetCollectorInterface;
 

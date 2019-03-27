@@ -9,7 +9,6 @@ declare(strict_types=1);
 
 namespace Ixocreate\Contract\Admin\Resource\Widgets;
 
-
 use Ixocreate\Contract\Admin\Resource\WidgetPosition\AboveCreateWidgetInterface;
 use Ixocreate\Contract\Admin\Resource\WidgetPosition\AboveEditWidgetInterface;
 use Ixocreate\Contract\Admin\Resource\WidgetPosition\AboveListWidgetInterface;
